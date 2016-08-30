@@ -1,0 +1,23 @@
+PRNINTST Copyright 1989 John Navas II, All Rights Reserved.
+
+PRNINTST is made available for personal, non-commercial use only. 
+You are granted a limited license to use PRNINTST, and to copy it and
+distribute it, provided that no fee is charged for such copying and
+distribution, and that it is ONLY distributed in its original,
+unmodified state.
+
+This program tests for proper interrupt-driven operation of the LPT1
+parallel printer port.  Although DOS is not terribly fussy about
+papallel printing, certain printer spoolers (including the OS/2
+spooler) depend on interrupts for efficient operation.
+
+To run this test you must have a printer ready and connected to the
+first parallel port, and be sure to boot the system without ANY TSR's
+installed!  The test messages are self-explanatory.  If the test is
+passed perfectly, the following message is displayed:
+
+Test completed successfully.
+
+[Note: run this program under native DOS, e.g. DOS booted from a floppy
+disk.]
+
